@@ -2,10 +2,11 @@
 	"name": "swapdiff",
 	"displayName": "swapdiff",
 	"description": "Swap diff documents",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "shalimski",
 	"license": "SEE LICENSE IN LICENSE.md",
 	"icon": "images/icon.png",
+	"keywords": ["swap", "diff"],
 	"bugs": {
 	  "url": "https://github.com/shalimski/swapdiff/issues"
 	},
