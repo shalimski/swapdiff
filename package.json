@@ -1,8 +1,9 @@
 {
 	"name": "swapdiff",
+	
 	"displayName": "swapdiff",
 	"description": "Swap diff documents",
-	"version": "0.0.2",
+	"version": "0.1.0",
 	"publisher": "shalimski",
 	"license": "SEE LICENSE IN LICENSE.md",
 	"icon": "images/icon.png",
@@ -30,6 +31,19 @@
 			{
 				"command": "swapdiff.swapdiff",
 				"title": "Swap diff documents"
+			}
+		],
+		"configuration":[
+			{
+				"title": "swapdiff",
+				"properties": {
+					"swapdiff.ClosePreviousDiff": {
+						"type": "boolean",
+						"default": false,
+						"description": "Close previous diff after switching",
+						"scope": "window"
+					}
+				}
 			}
 		]
 	},

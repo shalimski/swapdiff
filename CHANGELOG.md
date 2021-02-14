@@ -2,6 +2,10 @@
 
 All notable changes to the "swapdiff" extension will be documented in this file.
 
+## [0.1.0] - 2021-02-14
+### Added
+- Added parameter that allows to close the previous diff
+
 ## [0.0.2] - 2021-02-07
 ### Added
 - Add gif demo
