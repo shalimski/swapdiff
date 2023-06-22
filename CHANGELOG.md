@@ -2,6 +2,12 @@
 
 All notable changes to the "swapdiff" extension will be documented in this file.
 
+## [0.2.1] - 2023-06-22
+
+### Fixed
+
+- bug, dont swapping temporary files
+
 ## [0.2.0] - 2023-06-02
 
 ### Fixed
