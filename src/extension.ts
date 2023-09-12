@@ -1,12 +1,12 @@
 import * as vscode from "vscode";
 
 export function activate(context: vscode.ExtensionContext) {
-  const documentScheme = ["file", "untitled"];
+  const documentScheme = /^(file|untitled|clipboardCompare\d+)$/;
 
   let disposable = vscode.commands.registerCommand("swapdiff.swapdiff", () => {
     const files: vscode.Uri[] = [];
     for (let editor of vscode.window.visibleTextEditors) {
-      if (documentScheme.includes(editor.document.uri.scheme)) {
+      if (documentScheme.test(editor.document.uri.scheme)) {
         files.push(editor.document.uri);
       }
     }
