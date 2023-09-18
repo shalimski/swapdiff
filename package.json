@@ -29,9 +29,22 @@
     "commands": [
       {
         "command": "swapdiff.swapdiff",
-        "title": "Swap diff documents"
+        "title": "Swap diff documents",
+        "icon": {
+          "dark": "./images/icon-dark.png",
+          "light": "./images/icon-light.png"
+        }
       }
     ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "swapdiff.swapdiff",
+          "when": "isInDiffEditor",
+          "group": "navigation"
+        }
+      ]
+    },
     "configuration": [
       {
         "title": "swapdiff",
