@@ -30,10 +30,7 @@
       {
         "command": "swapdiff.swapdiff",
         "title": "Swap diff documents",
-        "icon": {
-          "dark": "./images/icon-dark.png",
-          "light": "./images/icon-light.png"
-        }
+        "icon": "$(arrow-swap)"
       }
     ],
     "menus": {
