@@ -29,9 +29,19 @@
     "commands": [
       {
         "command": "swapdiff.swapdiff",
-        "title": "Swap diff documents"
+        "title": "Swap diff documents",
+        "icon": "$(arrow-swap)"
       }
     ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "swapdiff.swapdiff",
+          "when": "isInDiffEditor",
+          "group": "navigation"
+        }
+      ]
+    },
     "configuration": [
       {
         "title": "swapdiff",
